@@ -1,0 +1,54 @@
+/* block elements occupy full width inline  occupy required width  inline block same but we can set margin & padding display none space not reserved remove from document visibility hidden space reserved*/
+/* Rgba (255,0,0,0.5) Alpha 0-1(0.5,0.25) it contro the brightness and all other things*/
+/* Units in Css pixels cm m Relative units 20%  em rem */
+/* if we want to set property according to parent then use percent in child */
+/* Em means related to parent if p is 10 px then child is 2cm  width size is multiplied by font size*/
+#B1{
+    height: 100vh;
+    width:100vw;
+    background-image:url(WhatsApp\ Image\ 2025-06-26\ at\ 17.08.31_ca09c1a3.jpg) ;
+    background-size:contain ;
+    background-repeat: no-repeat;
+
+position:relative;
+top:30px;
+left:30px;
+bottom: 30px;
+    width: 200px;
+    background-color: blue;
+    margin:10px;
+    padding: 10px;
+    font-size: 25px;
+}
+#B2{
+    height: 50%;
+    width: 50%;
+    background-color: green;
+    margin-left: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    margin-top: 10%;
+    font-size: 1rem;
+    font-size: 1em;
+        width:100vw;
+        z-index: 1;
+        position:sticky;
+        position: fixed;
+    position:absolute;
+    top:0px;
+    width:5em;
+
+
+}
+/* last is root element rem size according to root element for font size */
+/* vh relative to 1 % OF VIEW PORT HEIGHT vW relative to 1 % OF VIEW PORT WIDTH */
+/* position decide of element Ststic relative absolute fixed */
+/* by default all element are static with static top bottom right left no effect 
+relative position shift element top bottom right left margin
+absolute means parent behind all means non static
+fixed invisible from document behind browser
+it scroll with page sticky
+Z index set priority control overlappping elements
+3-d axes +- 
+background image size cover auto contain
+*/

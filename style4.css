@@ -1,0 +1,80 @@
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px double red;
+    background-color: blue;
+    margin: 200px 200px 200px 200px;
+    /* transition-duration:5s;
+    transition-timing-function:ease-in;
+    transition-timing-function:steps(3);
+    transition-delay:5s;  ms rotate property apply to all content 360deg scale x and y (2,1)axis(*/
+    /* transform: scaleXY(5,10); */
+    /* transition: all 2s steps(5) 2s;
+    animation-name: my;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: reverse; */
+    animation: my 2s linear 3s infinite alternate;
+
+
+    /* rotate: z 90deg;
+    transform: rotate(90deg); */
+}
+
+div:hover {
+    background-color: black;
+    color: beige;
+    transform: skew(45deg);
+    /* transform: scale(2); */
+    /* transform: translateY(50px); */
+}
+
+div:active {
+    background-color: chartreuse;
+    font-size: 50px;
+}
+
+@keyframes my {
+    from {
+        font-size: 10px;
+    }
+
+    to {
+        font-size: 50px;
+    }
+
+    0%{
+        font-size: 10px;
+    }
+
+    50%{
+        font-size: 50px;
+    }
+    100%{
+        font-size: 50px;
+    }
+}
+
+/* @media (width:600px){
+    div{
+        background-color:chartreuse;
+    }
+} 
+ exactly 600 px green 
+ @media (min-width:600px){
+    div{
+        background-color:chartreuse;
+    }
+} 
+@media (max-width:600px){
+    div{
+        background-color:aqua;
+    }
+} 
+@media (min-width:600px) and (max-width:300px){
+    div{
+        background-color:rgb(255, 0, 234);
+    }
+}  */

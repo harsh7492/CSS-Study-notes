@@ -1,0 +1,53 @@
+/* if proerty set to display flex main cross axis both horizontal and verically flex containers 
+by default all items row direction main axis row reverse column column-reverse
+flex allow whatever height given they fit in con
+justify content flex - start/end/centre /space evenly/space around /space between same as column 
+align items- center-means all containers are merge align content-flex start-it means start of page when end then bottom of page
+flex wrap align item align center It work on column
+align self highest property work on x axis
+
+
+
+
+*/
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    flex-wrap:wrap;
+    /* align-content: flex-start;  It only work when x axis have extra space */
+    /* align-self:; it overide the align items*/
+    /* flex-grow:2 size;
+    flex-grow: 0;
+    flex-shrink:2; */
+    /* flex-wrap: wrap spilts into multiple line;
+    align-items:center;
+    align-content:center; */
+}
+#box1{
+    background-color:pink;
+}
+#box2{
+    background-color:aquamarine;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: crimson;
+}
+#box5{
+    background-color:blueviolet;
+}
+

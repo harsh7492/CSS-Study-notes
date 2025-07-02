@@ -1,0 +1,105 @@
+h1 {
+    color:red;
+} */
+/* color property of foreground like button link it set by color property*/
+/* property value pair terminator; */
+ p {
+    color:black;
+}
+button {
+    color:blue;
+    background-color:azure;
+}
+body {
+    background-color: rgb(233, 224, 122);
+} 
+/* Red Green Blue are primary color used to make more color */
+/* h1 {
+    color:rgb(255,0,0);
+}
+p {
+    color:rgb(0,240,150);
+}
+button {
+    color:rgb(0,255,0);
+    background-color:rgb(255,100,100);
+}
+body {
+    background-color: rgb(100,150,120);
+} */
+ /* rgb=red green blue(10,10,30) */
+/* hex is same as rgb but in short form  we write in two digits ff means full*/
+/* p {
+    color:#000011;
+}
+body{
+    background-color:#ffff00;
+     color pallet  uses color combination
+} */
+ /*  *{} universal if you redefine color then over write */
+ /* * {
+    color:blueviolet;
+ } */
+ h2{
+    color:black;
+    text-align: center;
+    text-decoration:blue underline;
+    font-weight: normal;
+
+ }
+ h1{
+    width: 100px;
+    font-weight: 100;
+    border-radius: 10px;
+    border:2px solid red;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+ #b1{
+    color:white;
+    background-color: darkturquoise;
+ }
+ /* used for ID */
+ .B1{
+    color: black;
+    display:block;
+ }
+ /* used for class */
+ p {
+   text-align: center; 
+   font-size:30px;
+   line-height: normal;
+   text-transform:uppercase; 
+ }
+ a{
+    text-decoration: none;
+ }
+/* left right center start=left end =right */
+/* underline overline line-through */
+/* text properties font-weight=normal/bold/bolder/lighter */
+/* font-weight:100-90 lightest 100 darkest 900 */
+/* font-family-style multiple available if one fail another execute falllback */
+/* pixels 96px=1inch font-size:2px */
+/* line height decide text height */
+/* text-transform upper lower capatalize none */
+/* margin is between two boxes padding is box within content space */
+/* border-width:2px */
+/* border-style:solid/dotted/dashed border color black */
+/* if border radius=50% then circle width height same */
+div{
+    height: 100px;
+    width: 200px;
+    color:lightcyan;
+    /* border-radius: 50%; */
+    border-width: 2px;
+    border-style:double;
+    border-color: black;
+    /* text-align: center; */
+    /* padding-left:25px; */
+    padding:10px 20px 30px 40px;
+    /* padding: 50px;  */
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin:20px 40px 60px 80px;
+    background-color: blue;
+    display:inline
+}
